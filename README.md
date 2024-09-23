@@ -1,0 +1,1 @@
+# plugins-yith-woocommerce-frequently-bought-together
