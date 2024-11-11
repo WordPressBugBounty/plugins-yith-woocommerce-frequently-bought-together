@@ -1,23 +1,17 @@
+# Translation of YITHEMES Frequently Bought Together in Spanish (Spain)
+# This file is distributed under the same license as the YITHEMES Frequently Bought Together package.
 msgid ""
 msgstr ""
-"Project-Id-Version: YITH WooCommerce Frequently Bought Together\n"
+"Project-Id-Version: YITHEMES Frequently Bought Together\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2024-09-12 08:07:55+00:00\n"
-"PO-Revision-Date: 2016-10-26 11:40+0200\n"
-"Last-Translator: \n"
-"Language-Team: YIThemes <plugins@yithemes.com>\n"
-"Language: es_ES\n"
+"POT-Creation-Date: 2024-11-11 16:39:13+00:00\n"
+"PO-Revision-Date: 2024-09-12 08:40:51+0000\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.10\n"
-"X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=n!=1;\n"
-"X-Poedit-KeywordsList: __ ;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
-"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: ..\n"
-"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 
 #: includes/class.yith-wfbt-admin.php:151
 msgid "Settings"
@@ -26,6 +20,8 @@ msgstr "Ajustes"
 #: includes/class.yith-wfbt-admin.php:198
 msgid "Suggest related products, upsells, or cross-sells automatically"
 msgstr ""
+"Sugiere automáticamente productos relacionados, venta dirigida o venta "
+"cruzada "
 
 #: includes/class.yith-wfbt-admin.php:199
 msgid ""
@@ -34,11 +30,17 @@ msgid ""
 "cross-sell products automatically with just one click to increase the "
 "average order value."
 msgstr ""
+"En la versión gratuita puedes seleccionar manualmente qué productos sugerir "
+"para la compra combinada. Con la versión premium puedes elegir sugerir "
+"automáticamente productos relacionados, venta dirigida o cruzada para "
+"aumentar el valor medio del pedido con un solo clic.  "
 
 #: includes/class.yith-wfbt-admin.php:202
 msgid ""
 "Customize the text, images, and buttons of the suggested products section"
 msgstr ""
+"Personaliza el texto, las imágenes y los botones de la sección de productos "
+"sugeridos"
 
 #: includes/class.yith-wfbt-admin.php:203
 msgid ""
@@ -46,10 +48,13 @@ msgid ""
 "product images, customize the title of the section and the text of the “Add "
 "to cart” button, and more!"
 msgstr ""
+"Elige cuántos productos sugerir para la compra combinada, define el tamaño "
+"de las imágenes de los productos, personaliza el título de la sección y el "
+"texto del botón de añadir al carrito y mucho más."
 
 #: includes/class.yith-wfbt-admin.php:206
 msgid "Choose where to show the suggested products box"
-msgstr ""
+msgstr "Elige dónde mostrar el cuadro de productos sugeridos"
 
 #: includes/class.yith-wfbt-admin.php:207
 msgid ""
@@ -57,10 +62,14 @@ msgid ""
 "under the “Add to cart” button or the product tabs, or at the bottom of the "
 "page. And you can use the shortcode for even more flexibility."
 msgstr ""
+"La versatilidad de la versión premium te da la opción de mostrar los "
+"productos bajo el botón de añadir al carrito, bajo las pestañas de producto "
+"o en la parte inferior de la página. Alternativamente, puedes utilizar el "
+"shortcode para una mayor libertad de elección."
 
 #: includes/class.yith-wfbt-admin.php:210
 msgid "Offer discounts to encourage customers to buy"
-msgstr ""
+msgstr "Ofrece descuentos para animar a tus clientes a comprar"
 
 #: includes/class.yith-wfbt-admin.php:211
 msgid ""
@@ -69,6 +78,10 @@ msgid ""
 "fixed or percentage discount to encourage them to buy the suggested products "
 "in a single order."
 msgstr ""
+"La opción más popular para los usuarios premium: una vez que hayas elegido "
+"los productos para promover como venta dirigida, puedes ofrecer un descuento "
+"(fijo o porcentual) a tus clientes para animarles a comprar los productos "
+"sugeridos en un solo pedido."
 
 #: includes/class.yith-wfbt-admin.php:314
 msgid "Select products"
@@ -88,12 +101,16 @@ msgid ""
 "YITH WooCommerce Frequently Bought Together is enabled but not effective. It "
 "requires WooCommerce in order to work."
 msgstr ""
+"YITH WooCommerce Frequently Bought Together Premium está activo pero no es "
+"efectivo. Requiere WooCommerce para funcionar."
 
 #: init.php:68
 msgid ""
 "You can't activate the free version of YITH WooCommerce Frequently Bought "
 "Together while you are using the premium one."
 msgstr ""
+"No puedes activar la versión gratuita de YITH WooCommerce Frequently Bought "
+"Together mientras usas la premium."
 
 #: plugin-options/general-options.php:14
 msgid "General Options"
@@ -113,11 +130,11 @@ msgstr "Comprados juntos con frecuencia"
 
 #: plugin-options/general-options.php:31
 msgid "Total label"
-msgstr ""
+msgstr "Texto precio total"
 
 #: plugin-options/general-options.php:32
 msgid "This is the label shown for total price label."
-msgstr ""
+msgstr "Texto para el precio total"
 
 #: plugin-options/general-options.php:35 templates/yith-wfbt-form.php:117
 msgid "Price for all"
@@ -125,11 +142,11 @@ msgstr "Precio de todos"
 
 #: plugin-options/general-options.php:40
 msgid "Button label"
-msgstr ""
+msgstr "Texto del botón"
 
 #: plugin-options/general-options.php:41
 msgid "This is the label shown for \"Add to cart\" button."
-msgstr ""
+msgstr "Texto del botón \"Añadir al carrito\""
 
 #: plugin-options/general-options.php:44 templates/yith-wfbt-form.php:116
 msgid "Add all to Cart"
@@ -137,19 +154,19 @@ msgstr "Añadir todo al carrito"
 
 #: plugin-options/general-options.php:55
 msgid "BACKGROUND"
-msgstr ""
+msgstr "FONDO"
 
 #: plugin-options/general-options.php:60
 msgid "BACKGROUND HOVER"
-msgstr ""
+msgstr "FONDO AL PASAR EL CURSOR"
 
 #: plugin-options/general-options.php:66
 msgid "TEXT"
-msgstr ""
+msgstr "TEXTO"
 
 #: plugin-options/general-options.php:71
 msgid "TEXT HOVER"
-msgstr ""
+msgstr "TEXTO AL PASAR EL CURSOR"
 
 #. translators: placeholders are used for add HTML tags.
 #: templates/admin/premium.php:288 templates/admin/premium.php:444
@@ -291,9 +308,14 @@ msgid ""
 "\"https://yithemes.com/\" target=\"_blank\">Get more plugins for your e-"
 "commerce shop on <strong>YITH</strong></a>."
 msgstr ""
+"<code><strong>YITH WooCommerce Frequently Bought Together</strong></code> "
+"permite incrementar el promedio gastado en tu tienda mostrando una caja con "
+"los productos comprados juntos más frecuentemente. De esta manera, los "
+"usuarios son animados a añadir más productos a su carrito justo como en "
+"Amazon. <a href=\"https://yithemes.com/\" target=\"_blank\">Obtén más "
+"plugins para tu comercio electrónico en <strong>YITH</strong></a>."
 
 #: includes/class.yith-wfbt-admin.php:172
-#, fuzzy
 msgctxt "Settings tab name"
 msgid "Settings"
 msgstr "Ajustes"
@@ -301,7 +323,7 @@ msgstr "Ajustes"
 #: includes/class.yith-wfbt-admin.php:173
 msgctxt "Settings tab description"
 msgid "Set the general behaviour of the plugin."
-msgstr ""
+msgstr "Establece el comportamiento general del plugin."
 
 #: includes/class.yith-wfbt-admin.php:284
 msgctxt "tab in product data box"
@@ -309,13 +331,11 @@ msgid "Frequently Bought Together"
 msgstr "Frequently Bought Together"
 
 #: includes/class.yith-wfbt.php:205
-#, fuzzy
 msgctxt "[gutenberg]: block name"
 msgid "Frequently Bought Form"
 msgstr "Comprados juntos con frecuencia"
 
 #: includes/class.yith-wfbt.php:206
-#, fuzzy
 msgctxt "[gutenberg]: block description"
 msgid ""
 "With this block you can print a product \"frequently bought together\" form."
@@ -326,325 +346,10 @@ msgstr ""
 msgctxt "[gutenberg]: attributes description"
 msgid "Add the product id (leave blank to get global product value)"
 msgstr ""
+"Añade el ID de producto (déjalo vacío para obtener el valor global de "
+"producto)"
 
 #: plugin-options/general-options.php:48
-#, fuzzy
 msgctxt "[admin]Plugin option label"
 msgid "Button colors"
 msgstr "Color del botón"
-
-#~ msgid "Select button background color"
-#~ msgstr "Seleccionar color de fondo del botón"
-
-#~ msgid "Button Hover Color"
-#~ msgstr "Color del botón en hover"
-
-#~ msgid "Select button background hover color"
-#~ msgstr "Selecciona un color de fondo en hover para el botón"
-
-#~ msgid "Button Text Color"
-#~ msgstr "Color del texto del botón"
-
-#~ msgid "Select button text color"
-#~ msgstr "Selecciona el color del texto del botón en hover"
-
-#~ msgid "Button Text Hover Color"
-#~ msgstr "Color del texto del botón en hover"
-
-#~ msgid "Select button text hover color"
-#~ msgstr "Selecciona el color del texto del botón en hover"
-
-#~ msgctxt "plugin name in admin page title"
-#~ msgid "Frequently Bought Together"
-#~ msgstr "Frequently Bought Together"
-
-#~ msgctxt "plugin name in admin WP menu"
-#~ msgid "Frequently Bought Together"
-#~ msgstr "Frequently Bought Together"
-
-#~ msgid "Plugin Documentation"
-#~ msgstr "Documentación del plugin"
-
-#~ msgid "Linked Products"
-#~ msgstr "Productos relacionados"
-
-#~ msgid "Slider in Wishlist"
-#~ msgstr "Slider en la Lista de deseos"
-
-#~ msgid "Hard Crop?"
-#~ msgstr "¿Recortar?"
-
-#~ msgid "Select default variation"
-#~ msgstr "Selecciona la variación por defecto"
-
-#~ msgid "Select number of products"
-#~ msgstr "Selecciona el número de productos"
-
-#~ msgid "Select the number of products to show excluding current one."
-#~ msgstr "Selecciona el número de productos que mostrar excluyendo el actual."
-
-#~ msgid "Main list of products"
-#~ msgstr "Lista principal de productos"
-
-#~ msgid "Main lists of products"
-#~ msgstr "Listas principales de productos"
-
-#~ msgid "Product"
-#~ msgstr "Producto"
-
-#~ msgid "Thumbnail"
-#~ msgstr "Miniatura"
-
-#~ msgid "Amount of linked products"
-#~ msgstr "Cantidad de productos relacionados"
-
-#~ msgid "Actions"
-#~ msgstr "Acciones"
-
-#~ msgid "Edit product"
-#~ msgstr "Editar producto"
-
-#~ msgid "Delete All"
-#~ msgstr "Borrar todo"
-
-#~ msgid "View Linked"
-#~ msgstr "Ver relacionados"
-
-#~ msgid "Delete"
-#~ msgstr "Borrar"
-
-#~ msgid "linked"
-#~ msgstr "relacionados"
-
-#~ msgid "Variation"
-#~ msgstr "Variación"
-
-#~ msgid "Stock Status"
-#~ msgstr "Estado de stock"
-
-#~ msgid ""
-#~ "YITH WooCommerce Frequently Bought Together Premium is enabled but not "
-#~ "effective. It requires WooCommerce in order to work."
-#~ msgstr ""
-#~ "YITH WooCommerce Frequently Bought Together Premium está habilitado pero "
-#~ "no es efectivo. Requiere WooCommerce para funcionar."
-
-#~ msgid "Total label for single product"
-#~ msgstr "Etiqueta de total para un solo producto"
-
-#~ msgid ""
-#~ "This is the text shown for total price label when only one product has "
-#~ "been checked."
-#~ msgstr ""
-#~ "Este es el texto que se muestra para la etiqueta de precio total cuando "
-#~ "sólo se ha marcado un producto."
-
-#~ msgid "Price"
-#~ msgstr "Precio"
-
-#~ msgid "Total label for double products"
-#~ msgstr "Etiqueta de total para dos productos"
-
-#~ msgid ""
-#~ "This is the text shown for total price label when two products have been "
-#~ "checked."
-#~ msgstr ""
-#~ "Este es el texto que se muestra para la etiqueta de precio total cuando "
-#~ "se han marcado dos productos."
-
-#~ msgid "Price for both"
-#~ msgstr "Precio de ambos"
-
-#~ msgid "Total label for three products"
-#~ msgstr "Etiqueta de total para tres productos"
-
-#~ msgid ""
-#~ "This is the text shown for total price label when three products have "
-#~ "been checked."
-#~ msgstr ""
-#~ "Este es el texto que se muestra para la etiqueta del precio total cuando "
-#~ "se han marcado los tres productos."
-
-#~ msgid "Price for all three"
-#~ msgstr "Precio de los tres"
-
-#~ msgid "Total label for multiple products"
-#~ msgstr "Etiqueta de total para múltiples productos"
-
-#~ msgid ""
-#~ "This is the label shown for total price label when more than three "
-#~ "products have been checked."
-#~ msgstr ""
-#~ "Esta es la etiqueta que se muestra para el precio total cuando se han "
-#~ "marcado más de tres productos."
-
-#~ msgid "Button label for single product"
-#~ msgstr "Etiqueta del botón para un solo producto"
-
-#~ msgid ""
-#~ "This is the label shown for \"Add to cart\" button when only one product "
-#~ "has been checked."
-#~ msgstr ""
-#~ "Esta es la etiqueta que se muestra en el botón \"Añadir al carrito\" "
-#~ "cuando sólo se ha marcado un producto."
-
-#~ msgid "Add to Cart"
-#~ msgstr "Añadir al carrito"
-
-#~ msgid "Button label for two products"
-#~ msgstr "Etiqueta del botón para dos productos"
-
-#~ msgid ""
-#~ "This is the label shown for \"Add to cart\" button when two products have "
-#~ "been checked."
-#~ msgstr ""
-#~ "Esta es la etiqueta que se muestra para el botón \"Añadir al carrito\" "
-#~ "cuando se han marcado dos productos."
-
-#~ msgid "Add both to Cart"
-#~ msgstr "Añadir ambos al carrito"
-
-#~ msgid "Button label for three products"
-#~ msgstr "Etiqueta del botón para tres productos"
-
-#~ msgid ""
-#~ "This is the label shown for \"Add to cart\" button when three products "
-#~ "have been checked."
-#~ msgstr ""
-#~ "Esta es la etiqueta que se muestra para el botón de \"Añadir al carrito\" "
-#~ "cuando se han marcado tres productos."
-
-#~ msgid "Add all three to Cart"
-#~ msgstr "Añadir los tres al carrito"
-
-#~ msgid "Button label for multiple products"
-#~ msgstr "Etiqueta del botón para múltiples productos"
-
-#~ msgid ""
-#~ "This is the label shown for \"Add to cart\" button when more than two "
-#~ "products have been checked."
-#~ msgstr ""
-#~ "Esta es la etiqueta que se muestra en el botón \"Añadir al carrito\" "
-#~ "cuando se han marcado más de dos productos."
-
-#~ msgid "Form Background Color"
-#~ msgstr "Color de fondo del formulario"
-
-#~ msgid "Select background color for Frequently Bought form"
-#~ msgstr ""
-#~ "Selecciona el color de fondo del formulario de Comprados juntos con "
-#~ "frecuencia"
-
-#~ msgid "Loader Image"
-#~ msgstr "Imagen de carga"
-
-#~ msgid "Upload a custom loading image."
-#~ msgstr "Sube una imagen de carga personalizada."
-
-#~ msgid "Image Size"
-#~ msgstr "Tamaño de imagen"
-
-#~ msgid ""
-#~ "Set image size (px). After changing these settings you may need to %s."
-#~ msgstr ""
-#~ "Establece el tamaño de imagen (px). Después de cambiar estos ajustes "
-#~ "podrías necesitar %s."
-
-#~ msgid "regenerate your thumbnails"
-#~ msgstr "regenerar tus miniaturas"
-
-#~ msgid "Select box position"
-#~ msgstr "Seleccionar la posición del recuadro"
-
-#~ msgid "Below product summary"
-#~ msgstr "Debajo del resumen de producto"
-
-#~ msgid "Above product tabs"
-#~ msgstr "Encima de las pestañas de producto"
-
-#~ msgid "Below product tabs"
-#~ msgstr "Debajo de las pestañas de producto"
-
-#~ msgid "Use shortcode [ywfbt_form product_id=\"\"]"
-#~ msgstr "Usar shortcode [ywfbt_form product_id=\"\"]"
-
-#~ msgid "WPML Options"
-#~ msgstr "Opciones WPML"
-
-#~ msgid "WPML Associated Products"
-#~ msgstr "Productos asociados WPML"
-
-#~ msgid "Slider Options"
-#~ msgstr "Opciones del Slider"
-
-#~ msgid "Slider Title"
-#~ msgstr "Título del Slider"
-
-#~ msgid "Give a title to the slider with products"
-#~ msgstr "Da un título al slider con los productos"
-
-#~ msgid "Customers who bought the items in your wishlist also purchased"
-#~ msgstr ""
-#~ "Los clientes que compraron los artículos de tu lista de deseos también "
-#~ "compraron"
-
-#~ msgid "Number of products"
-#~ msgstr "Número de productos"
-
-#~ msgid ""
-#~ "Choose the maximum number of products displayed at a time when the "
-#~ "browser is used with its widest width."
-#~ msgstr ""
-#~ "Elige el máximo número de productos que se muestra al mismo tiempo cuando "
-#~ "el navegador se usa en su máximo ancho."
-
-#~ msgid "\"Add to cart\" button label"
-#~ msgstr "Etiqueta del botón \"Añadir al carrito\""
-
-#~ msgid "Choose the label for \"Add to cart\" button."
-#~ msgstr "Elige la etiqueta del botón \"Añadir al carrito\""
-
-#~ msgid "Add to cart"
-#~ msgstr "Añadir al carrito"
-
-#~ msgid "\"Wishlist\" button"
-#~ msgstr "Botón \"lista de deseos\""
-
-#~ msgid "Choose the label for \"Wishlist\" button."
-#~ msgstr "Elige la etiqueta para el botón de \"Lista de deseos\"."
-
-#~ msgid "Add to Wishlist"
-#~ msgstr "Añadir a lista de Deseos"
-
-#~ msgid "Select product content"
-#~ msgstr "Seleccionar contenido del producto"
-
-#~ msgid "Product Image"
-#~ msgstr "Imagen de producto"
-
-#~ msgid "Product Name"
-#~ msgstr "Nombre de producto"
-
-#~ msgid "Product Price"
-#~ msgstr "Precio de producto"
-
-#~ msgid "Product Variation"
-#~ msgstr "Variación de producto"
-
-#~ msgid "Product Rating"
-#~ msgstr "Valoración de producto"
-
-#~ msgid "Select at least one product that has to be removed."
-#~ msgstr "Selecciona al menos un producto que tiene que borrarse."
-
-#~ msgid "Selected products have been removed."
-#~ msgstr "Los productos seleccionados tienen que borrarse."
-
-#~ msgid "Linked products for %s"
-#~ msgstr "Productos relacionados con %s"
-
-#~ msgid "Go back to main list of products"
-#~ msgstr "Volver a la lista principal de productos"
-
-#~ msgid "List of products"
-#~ msgstr "Lista de productos"
