@@ -3,13 +3,14 @@
  * Plugin Name: YITH WooCommerce Frequently Bought Together
  * Plugin URI: https://yithemes.com/themes/plugins/yith-woocommerce-frequently-bought-together/
  * Description: The <code><strong>YITH WooCommerce Frequently Bought Together</strong></code> allows increasing the average spent of your store by showing a box with the products purchased together more frequently. In this way, users are encouraged to add more products to their cart just like on Amazon. <a href="https://yithemes.com/" target="_blank">Get more plugins for your e-commerce shop on <strong>YITH</strong></a>.
- * Version: 1.42.0
+ * Version: 1.43.0
  * Author: YITH
  * Author URI: https://yithemes.com/
  * Text Domain: yith-woocommerce-frequently-bought-together
  * Domain Path: /languages/
- * WC requires at least: 9.2
- * WC tested up to: 9.4
+ * WC requires at least: 9.3
+ * WC tested up to: 9.5
+ * Requires Plugins: woocommerce
  *
  * @author  YITH <plugins@yithemes.com>
  * @package YITH\FrequentlyBoughtTogether
@@ -77,7 +78,7 @@ register_activation_hook( __FILE__, 'yith_plugin_registration_hook' );
 
 
 if ( ! defined( 'YITH_WFBT_VERSION' ) ) {
-	define( 'YITH_WFBT_VERSION', '1.42.0' );
+	define( 'YITH_WFBT_VERSION', '1.43.0' );
 }
 
 if ( ! defined( 'YITH_WFBT_FREE_INIT' ) ) {
@@ -120,11 +121,10 @@ if ( ! defined( 'YITH_WFBT_META' ) ) {
 	define( 'YITH_WFBT_META', '_yith_wfbt_ids' );
 }
 
-/* Plugin Framework Version Check */
-if ( ! function_exists( 'yit_maybe_plugin_fw_loader' ) && file_exists( YITH_WFBT_DIR . 'plugin-fw/init.php' ) ) {
-	require_once YITH_WFBT_DIR . 'plugin-fw/init.php';
+// Plugin Framework Loader.
+if ( file_exists( plugin_dir_path( __FILE__ ) . 'plugin-fw/init.php' ) ) {
+	require_once plugin_dir_path( __FILE__ ) . 'plugin-fw/init.php';
 }
-yit_maybe_plugin_fw_loader( YITH_WFBT_DIR );
 
 /**
  * Init.
@@ -134,7 +134,9 @@ yit_maybe_plugin_fw_loader( YITH_WFBT_DIR );
  */
 function yith_wfbt_free_init() {
 
-	load_plugin_textdomain( 'yith-woocommerce-frequently-bought-together', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	if ( function_exists( 'yith_plugin_fw_load_plugin_textdomain' ) ) {
+		yith_plugin_fw_load_plugin_textdomain( 'yith-woocommerce-frequently-bought-together', dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+	}
 
 	// Load required classes and functions.
 	require_once 'includes/class.yith-wfbt.php';

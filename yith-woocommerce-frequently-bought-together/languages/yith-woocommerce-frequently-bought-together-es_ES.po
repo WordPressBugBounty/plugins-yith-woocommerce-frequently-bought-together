@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: YITHEMES Frequently Bought Together\n"
 "Report-Msgid-Bugs-To: YITH <plugins@yithemes.com>\n"
-"POT-Creation-Date: 2024-11-11 16:39:13+00:00\n"
+"POT-Creation-Date: 2024-12-12 15:55:46+00:00\n"
 "PO-Revision-Date: 2024-09-12 08:40:51+0000\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -96,7 +96,7 @@ msgid "Select products for \"Frequently bought together\" group"
 msgstr ""
 "Seleccionar productos para el grupo \"Comprados juntos con frecuencia\""
 
-#: init.php:53
+#: init.php:54
 msgid ""
 "YITH WooCommerce Frequently Bought Together is enabled but not effective. It "
 "requires WooCommerce in order to work."
@@ -104,7 +104,7 @@ msgstr ""
 "YITH WooCommerce Frequently Bought Together Premium está activo pero no es "
 "efectivo. Requiere WooCommerce para funcionar."
 
-#: init.php:68
+#: init.php:69
 msgid ""
 "You can't activate the free version of YITH WooCommerce Frequently Bought "
 "Together while you are using the premium one."
@@ -330,19 +330,19 @@ msgctxt "tab in product data box"
 msgid "Frequently Bought Together"
 msgstr "Frequently Bought Together"
 
-#: includes/class.yith-wfbt.php:205
+#: includes/class.yith-wfbt.php:186
 msgctxt "[gutenberg]: block name"
 msgid "Frequently Bought Form"
 msgstr "Comprados juntos con frecuencia"
 
-#: includes/class.yith-wfbt.php:206
+#: includes/class.yith-wfbt.php:187
 msgctxt "[gutenberg]: block description"
 msgid ""
 "With this block you can print a product \"frequently bought together\" form."
 msgstr ""
 "Seleccionar productos para el grupo \"Comprados juntos con frecuencia\""
 
-#: includes/class.yith-wfbt.php:212
+#: includes/class.yith-wfbt.php:193
 msgctxt "[gutenberg]: attributes description"
 msgid "Add the product id (leave blank to get global product value)"
 msgstr ""
