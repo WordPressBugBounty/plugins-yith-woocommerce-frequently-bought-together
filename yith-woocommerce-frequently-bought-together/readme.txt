@@ -3,7 +3,7 @@ Contributors: yithemes
 Tags: yith, frequently bought together, bought together, bundles, frequently bought products
 Requires at least: 6.8
 Tested up to: 7.0
-Stable tag: 1.57.0
+Stable tag: 1.58.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -63,6 +63,11 @@ You can report security bugs through the Patchstack Vulnerability Disclosure Pro
 3. The plugin tab in edit product
 
 == Changelog ==
+
+= 1.58.0 = Released on 18 June 2026
+
+* New: support for WooCommerce 10.9
+* Update: YITH plugin framework
 
 = 1.57.0 = Released on 14 May 2026
 
